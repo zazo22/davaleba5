@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: robotofont;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: robotomed;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: robotoreg;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: black;
+}
+h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -33333px;
+    margin-left: 100px;
+    margin-top: -24px;
+    }
+ h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+ }
+header nav {
+    padding-left: 338px;
+    padding-top: 38px;
+}
+header li a{
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+    padding-right: 20px;
+    font-family: robotofont;
+}
+.social{
+    width: 50px;
+    height: 100px;
+   /* background-color: blue;*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 120px;
+}
+.facebook, .instagram{
+    width: 100%;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.facebook{
+    background-image: url(../img/fb.png);
+}
+.instagram{
+    background-image: url(../img/inst.png);
+
+}
+.facebook a, .instagram a{
+    display: block;
+    width: 50%;
+    height: 100px;
+}
+.today{
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: robotofont;
+}
+.kvadrati{
+    width: 300px;
+    height: 270px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;   
+}
+.kvadratishvili{
+    width: 100%;
+    height: 244px;
+    border: 1px solid black ;
+    position: relative; 
+}
+.kvadratishvilishvili{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -4px;
+    right: 0;
+}
+.music{
+    width: 284px;
+    height: 65px;
+    background-image: url(../img/sound\ 1.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin-left: 8px;
+    margin-top: 58px;
+}
+.meoreh{
+    margin-left: 12px;
+    margin-top: 24px;
+    font-family: robotofont;
+    font-size: 18px;
+}
+h3{
+    margin-left: 12px;
+    margin-top: 14px;
+    font-family: robotofont;
+    font-size: 14px;
+}
+.mesameh{
+    margin-top: 10px;
+    margin-left: 0;
+    color: black;
+    font-size: 12px;
+    font-family: robotofont;
+}
+.mesameh::after{
+    content: "?";
+}
+.latest{
+    clear: both;
+    margin-left: 80px;
+    padding-top: 22px;
+    font-family: robotofont;
+}
+.footeramde{
+    margin-bottom: 100px;
+}
+/*იწყება მეორე გვერდი*/
+.playlist1{
+    width: 280px;
+    height: 360px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.pl1{
+    font-size: 24px;
+    color: black;
+    font-family: robotofont;
+    margin-bottom: 51px;
+}
+.artist{
+    font-size: 18px;
+    color: black;
+    margin-left: 0px;
+    font-family: robotoreg;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+.suny{
+    margin: 46px auto;
+} 
+.gverdigverd{
+    margin-left: 6px;
+}
+.thanks{
+    margin-left: 460px;
+    margin-top: 106px;
+    margin-bottom: 144px;
+    font-size: 36px;
+    font-family: robotoreg;
+
+
+}
+
+
+/* იწყება footer*/
+
+footer{
+    clear: both;
+    height: 354px;
+    background-color: black;
+    padding-top: 28px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/music-note\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+footer nav ul li{
+    text-align: center;
+}
+footer nav li a{
+    font-family: robotofont;
+    font-size: 18px;
+    color: #ffffff;
+}
+.bolo{
+    color: #ffffff;
+    font-family: robotofont;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+ 
+
