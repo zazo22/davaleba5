@@ -21,6 +21,7 @@ header{
     width: 100%;
     height: 94px;
     background-color: black;
+    
 }
 h1{
     width: 70px;
@@ -46,7 +47,22 @@ header li a{
     font-size: 18px;
     float: left;
     padding-right: 20px;
+    padding-bottom: 5px;
     font-family: robotofont;
+    position: relative;
+}
+header ul li a::before{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+header ul li a:hover::before{
+    width: 100%;
 }
 .social{
     width: 50px;
@@ -57,6 +73,15 @@ header li a{
     right: 0;
     margin-top: 120px;
 }
+.facebook:hover{
+    background-image: url(../img/facebook.png);
+}
+ .instagram:hover{
+background-image: url(../img/instagramper.png);
+}
+
+
+
 .facebook, .instagram{
     width: 100%;
     height: 50px;
@@ -94,6 +119,11 @@ header li a{
     border: 1px solid black ;
     position: relative; 
 }
+.kvadratishvili:hover{
+    box-shadow: 0px 0px 10px #000000;
+    
+    
+}
 .kvadratishvilishvili{
     width: 50px;
     height: 50px;
@@ -103,6 +133,9 @@ header li a{
     position: absolute;
     top: -4px;
     right: 0;
+}
+.kvadratishvilishvili:hover{
+    background-image: url(../img/like\ 2.png);
 }
 .music{
     width: 284px;
@@ -132,9 +165,30 @@ h3{
     font-size: 12px;
     font-family: robotofont;
 }
-.mesameh::after{
+.mesameh a::after{
     content: "?";
 }
+.mesameh a {
+    color: black;
+    position: relative;
+}
+.mesameh a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.mesameh a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
 .latest{
     clear: both;
     margin-left: 80px;
@@ -151,7 +205,19 @@ h3{
     margin-left: 100px;
     margin-top: 50px;
     display: inline-block;
+    transition: background-color 2s, box-shadow 2s
 }
+.playlist1:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+ .pl1{
+    transition: 2s;
+}
+.playlist1:hover .pl1{
+    color: black;
+}
+
 .pl1{
     font-size: 24px;
     color: black;
@@ -215,6 +281,7 @@ footer nav li a{
     margin-top: 50px;
     text-align: center;
 }
+
 
 
 
